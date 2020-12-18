@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+    <style>
+    body{
+        margin: 0;
+    }
+    #profile {
+    max-width: 100%;
+    width: auto;
+    }
+
+    .container div{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 950px;
+        margin: 60px auto;
+    }
+
+    .rtl {
+    flex-direction: row-reverse;
+    }
+
+    .container div{
+        padding: 10px;
+    }
+
+    h1 {
+
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: #63A8A4;
+
+    }
+
+    .c33 { 
+    width: 33%;
+    }
+
+    .c50 {
+    width: 50%;
+    }
+
+    .c100 {
+    width: 100%;
+    }
+
+    @media screen and (max-width: 600px){
+
+
+    }
+
+    @media screen and (max-width: 300px){
+        
+    }
+
+    </style>
+
     <head>
         <title>
             Brendan Doherty
         </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=yes">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
@@ -21,11 +76,12 @@
         </header>
 
         <section id="about">
-            <h1>About Me</h1>
-            </div>
-            <div class="row">
-
+        <h1>About Me</h1>
+        <div class="#container">
+            <div class=".c50">
                 <img id="profile" src="brendan.jpg" alt="my profile picture" />
+            </div>
+            <div class=".c50">
                 <p>My name is Brendan Doherty, I'm a computer programming and web development student at BMCC. </p>
                 <p> I also work full time for a large startup in the health and wellness industry. In my day job, 
                     I'm a care manager. I have a team of 7 associates who directly report to me. It's a challenge 
@@ -38,9 +94,25 @@
                     I will be studying Journalism. 
                 </p>
             </div>
+        </div>
+        <div class="container.rtl">
+            <div class=".c50">
+
+            </div>
+        </div>
         </section>
-        <footer>
-            Copyright &#169;
-        </footer>
+            <ul>
+                <li>
+                    <a href="#" class="fa fa-envelope-o"></a>
+                </li>
+                <li>
+                    <a href="#" alt="Facebook" class="fa fa-facebook"></a>
+                </li>
+                <li>
+                    <a href="#" alt="Twitter" class="fa fa-twitter"></a>
+                </li>
+            <p>
+                &copy; Copyright Brendan Doherty 2020. All Rights Reserved.
+            </p>
     </body>
 </html>
